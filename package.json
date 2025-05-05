@@ -1,26 +1,29 @@
 {
-	"devDependencies": {
-		"@vitest/ui": "latest",
-		"typescript": "^5.8.3",
-		"vitest": "latest"
-	},
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"license": "MIT",
-	"name": "@vitest/example-test",
-	"packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
-	"private": true,
-	"scripts": {
-		"build": "tsc",
-		"test": "vitest",
-		"test:run": "vitest run",
-		"test:ui": "vitest --ui"
-	},
-	"stackblitz": {
-		"startCommand": "npm run test:ui"
-	},
-	"type": "module"
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "typescript": "^5.8.3",
+    "vitest": "latest"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@vitest/example-test",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "prettier": {
+    "printWidth": 90
+  },
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts"
 }
